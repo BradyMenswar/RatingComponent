@@ -21,7 +21,7 @@
 <body>
 
   <!-- Rating state start -->
-  <div class="container">
+  <div class="container" id="rating-container">
     <div class="star-icon">
       <img src="images/icon-star.svg" alt="">
     </div>
@@ -36,11 +36,11 @@
       <div class="rating" data-rating>4</div>
       <div class="rating" data-rating>5</div>
     </div>
-    <button class="submit-button">Submit</button>
+    <button class="submit-button" data-submit>Submit</button>
   </div>
-  <div class="container thank-you">
+  <div class="container thank-you" id="thank-you-container">
     <img class="thank-you-image" src="images/illustration-thank-you.svg" alt="">
-    <div class="caption">You selected X out of 5</div>
+    <div class="caption" id="rating-caption">You selected X out of 5</div>
     <h1>Thank you!</h1>
     <p>We appreciate you taking the time to give a rating. If you ever need more support, 
       don’t hesitate to get in touch!</p>
